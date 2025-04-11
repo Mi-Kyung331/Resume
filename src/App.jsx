@@ -32,7 +32,7 @@ function App() {
       <Header2 />
       <main>
         <section id="core-concepts">
-          <h2>나의 핵심 역량</h2>
+          <h2 className="ddd">나의 핵심 역량</h2>
           <ul>
             <CoreConcepts {...CORE_CONCEPTS[0]} />
             <CoreConcepts {...CORE_CONCEPTS[1]} />

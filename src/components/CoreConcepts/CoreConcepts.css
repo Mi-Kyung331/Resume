@@ -1,15 +1,24 @@
 #core-concepts {
   padding: 2rem;
-  border-radius: 6px;
-  background-color: #140524;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  /* background-color: #140524; */
+  background-color: #8cb3aa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px 	rgb(74, 68, 83, 0.4);
 }
+
+
 
 main h2 {
   text-align: center;
   font-family: "Noto Sans KR", sans-serif;
   margin: 0 0 1.5rem 0;
-  color: #a18aba;
+  /* color: #a18aba; */
+  color: #679b8e;
+}
+
+.ddd {
+  color: rgba(225, 225, 225, 0.9);
 }
 
 #core-concepts ul {
@@ -34,6 +43,7 @@ main h2 {
 
 #core-concepts li h3 {
   margin: 0.5rem 0;
+  color: rgba(225, 225, 225, 0.9);
 }
 
 #core-concepts li p {

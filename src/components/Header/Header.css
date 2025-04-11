@@ -8,8 +8,10 @@ header img {
   width: 8rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #a18aba;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  /* border: 3px solid #a18aba; */
+  border: 4px solid #679b8e;
+  box-shadow: 0 0 10px rgb(74, 68, 83, 0.4);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); */
   margin-bottom: 1rem;
 }
 
@@ -18,7 +20,8 @@ header h1 {
   margin: 0;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 5rem;
-  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+  /* background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff); */
+  background: linear-gradient(40deg, #f9f871, #f9f871, #b1f88a, #b1f88a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
@@ -27,6 +30,8 @@ header h1 {
 header p {
   margin: 0;
   font-size: 1.25rem;
-  color: #8964b0;
+  /* color: #8964b0; */
+  color: #679b8e;
   font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
 }

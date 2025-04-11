@@ -11,8 +11,11 @@ html {
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1.5;
 
-  color: #ebe7ef;
-  background: radial-gradient(#280a48, #20043d);
+  /* color: #ebe7ef; */
+  color: rgba(225, 225, 225, 0.9);;
+  /* background: radial-gradient(#280a48, #20043d); */
+  /* background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%); */
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -47,9 +50,10 @@ main {
 #examples menu button {
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 6px;
+  border-radius: 50%;
   background-color: transparent;
-  color: #a18aba;
+  /* color: #a18aba; */
+  color: #a3c0a6;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 1rem;
   cursor: pointer;
@@ -57,20 +61,26 @@ main {
 }
 
 #examples menu button:hover {
-  background-color: #1b082f;
-  color: #ebe7ef;
+  /* background-color: #1b082f; */
+  background-color: #8cb3aa;
+  /* color: #ebe7ef; */
+  color: rgba(225, 225, 225, 0.9);
 }
 
 #examples menu button.active {
-  background-color: #7925d3;
-  color: #ebe7ef;
+  /* background-color: #7925d3; */
+  background-color: #b1a7c2;
+  /* color: #ebe7ef; */
+  color: rgba(225, 225, 225, 0.6);
 }
 
 #tab-content {
   padding: 2rem;
-  border-radius: 6px;
-  background-color: #2f1d43;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  /* background-color: #2f1d43; */
+  background-color: #8cb3aa;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 2px 8px 	rgb(74, 68, 83, 0.4);
 }
 
 #tab-content h3 {
